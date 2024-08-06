@@ -4,6 +4,7 @@ let arr = [64, 34, 12, 25, 22, 11, 90, 98];
 
 for (let i = 0; i < arr.length; i++) {
   for (let j = 0; j < arr.length - i; j++) {
+    // Runs 0 to 4 for 5 elements
     if (arr[j] > arr[j + 1]) {
       let temp = arr[j];
       arr[j] = arr[j + 1];

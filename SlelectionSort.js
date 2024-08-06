@@ -1,5 +1,5 @@
 // Selection Sort
-// Ref :- https://www.geeksforgeeks.org/selection-sort-algorithm-2/
+// Ref :- https://www.geeksforgeeks.org/selection-sort-algorithm-2/, https://www.youtube.com/watch?v=GUDLRan2DWM
 
 // Javascript program for implementation of selection sort
 function swap(arr, xp, yp) {
@@ -16,7 +16,6 @@ function selectionSort(arr, n) {
     // Find the minimum element in unsorted array
     min_idx = i;
     for (j = i + 1; j < n; j++) if (arr[j] < arr[min_idx]) min_idx = j;
-
     // Swap the found minimum element with the first element
     swap(arr, min_idx, i);
   }
