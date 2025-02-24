@@ -16,3 +16,12 @@ Learning DSA
 5. Dijkstra's Algo
 6. Floyd-Warshall Algo
 7. A Search Algo
+
+// TO DO's :-
+Two Pointer
+Prefix Sum
+Top K Elements
+Sliding Window
+BFS, DFS
+Topological Sort
+Divide and Conquer
