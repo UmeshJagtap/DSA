@@ -23,14 +23,18 @@ function selectionSort(arr, n) {
 
 function printArray(arr, size) {
   var i;
-  for (i = 0; i < size; i++) document.write(arr[i] + ' ');
-  document.write(' <br>');
+  for (i = 0; i < size; i++) {
+    console.log(arr[i] + ' ');
+  }
+  // document.write(arr[i] + ' ');
+  // document.write(' <br>');
 }
 
 var arr = [64, 25, 12, 22, 11];
 var n = 5;
 selectionSort(arr, n);
-document.write('Sorted array: <br>');
+// document.write('Sorted array: <br>');
+console.log('Sorted array : ');
 printArray(arr, n);
 
 // This code is contributed by akshitsaxenaa09.
