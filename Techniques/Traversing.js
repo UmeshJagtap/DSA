@@ -1,3 +1,7 @@
+//
+// Largest in the Array
+//
+
 let arr = [1, 8, 7, 45, 78, 90];
 
 function largest(arr) {
@@ -12,10 +16,14 @@ function largest(arr) {
 
 largest(arr);
 
+//
+// RemoveFalsy value
+//
+
 // const removeFalsy = (arr) => arr.filter(Boolean);
 
 // console.log(removeFalsy([0, 1, false, true, 0, 0, '', 'hello']));
 
 // ZUK@DESKTOP-0M6F0IP MINGW64 ~/Documents/GitHub/DSA (main)
 // $ node Traversing.js
-// 90
+// [ 1, true, 'hello' ]
