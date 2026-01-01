@@ -13,7 +13,7 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 
-console.log(arr);
+console.log('Sorted Array : ', arr);
 
 // ZUK@DESKTOP-0M6F0IP MINGW64 ~/Documents/GitHub/DSA (main)
 // $ node BubbleSort.js
