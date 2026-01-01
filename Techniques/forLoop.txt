@@ -2,4 +2,4 @@
 for(var i=0; i < arr.length; i++) {     // Outer loop runs only when inner loops fully runs  // Totally kitne baar chalega
     for (var j = 0; j < arr.length - i; j++)   // Inner loop
       if (condn) {}
-   }
+}
